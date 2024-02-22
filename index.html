@@ -13,12 +13,12 @@
         </div>
         <div id="form">
             <form name="form1"action="">
-                <h2>Contact Us</h2>
-                <div id="inputs">
+                <div id="information">
+                    <h2>Contact Us</h2>
                     <input type="email" name="email" placeholder="Email" required>
-                    <input type="password" placeholder="Pass-Word" required>
+                    <input type="text" name="text" placeholder="Message" maxlength="10000" style="height:5rem">
+                    <button id="submit" onclick="validateEmail(document.form1.email)">Submit Form</button>
                 </div>
-                <button id="submit" onclick="validateEmail(document.form1.email)">Submit Form</button>
             </form>
         </div>
     </div>
