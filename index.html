@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-
+    <div id="body">
+        <div id="navBar">
+            <h1>Vintage Videos</h1>
+        </div>
+        <div id="form">
+            <form name="form1"action="">
+                <div id="information">
+                    <h2>Contact Us</h2>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="text" placeholder="Message" maxlength="10000" style="height:5rem">
+                    <button id="submit" onclick="validateEmail(document.form1.email)">Submit Form</button>
+                </div>
+            </form>
+        </div>
+    </div>
 <script defer src="app.js"></script>
 </body>
 </html>
